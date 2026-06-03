@@ -1,0 +1,7 @@
+# Redirect .com to .ca after both domains are connected in Netlify
+# https://cardamomcrush.com/* https://cardamomcrush.ca/:splat 301!
+# https://www.cardamomcrush.com/* https://cardamomcrush.ca/:splat 301!
+
+/thank-you /catering-success.html 301
+/thank-you/ /catering-success.html 301
+/thank-you.html /catering-success.html 301
