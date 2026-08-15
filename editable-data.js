@@ -1,8 +1,14 @@
 /*
   Cardamom Crush editable website content
-  Edit this file when you want to update menu items, ingredients, recipes,
-  market venues, dates, social links, and QR landing-page buttons.
+  Edit this file when you want to update menu items, prices, pictures,
+  ingredients, recipes, market venues, dates, social links, and QR landing-page buttons.
   Keep the commas and quotation marks exactly like the examples below.
+
+  Menu picture tip:
+  1. Add your food photo to the assets/menu folder.
+  2. Add an image line to the matching item, for example:
+     image: "assets/menu/masala-chai.jpg",
+  3. Leave image blank or remove the line if an item has no picture yet.
 */
 window.CC_DATA = {
   business: {
@@ -32,6 +38,7 @@ window.CC_DATA = {
           name: "Authentic Masala Chai",
           description: "Warm brewed chai with milk and traditional spices.",
           price: "",
+          image: "",
           dietary: "Contains milk",
           ingredients: ["black tea", "milk", "cardamom", "ginger", "cinnamon", "cloves", "black pepper"],
           recipeNote: "Serve hot. Sweeten to taste when requested."
@@ -40,6 +47,7 @@ window.CC_DATA = {
         //   name: "Iced Chai Latte",
         //   description: "Chilled chai with milk served over ice.",
         //   price: "",
+        //   image: "assets/menu/iced-chai-latte.jpg",
         //   dietary: "Contains milk",
         //   ingredients: ["chai concentrate", "milk", "ice"],
         //   recipeNote: "Mix concentrate with milk and ice. Sweeten to taste."
