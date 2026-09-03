@@ -139,8 +139,8 @@
         {
           "name": "Wholesome Breakfast Cookie",
           "status": "available",
-          "description": "Oats, raisins, cinnamon, and nut butter.",
-          "price": "",
+          "description": "Made with Oats, Raisins, nut butter and aromatic spices.",
+          "price": "available upon request",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "gluten-free oats",
@@ -156,8 +156,8 @@
         {
           "name": "Zucchini Brownie",
           "status": "available",
-          "description": "Fudgy brownie made with zucchini and cocoa.",
-          "price": "",
+          "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
+          "price": "available upon request",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "zucchini",
@@ -171,10 +171,10 @@
           "recipeNote": "A yummy chocolate delight with hidden veggies for a healthier treat."
         },
         {
-          "name": "Cupcakes",
+          "name": "Blueberry Cupcakes",
           "status": "available",
-          "description": "Blueberry and chocolate chip flavours.",
-          "price": "",
+          "description": "Blueberry cupcakes. Gluen-free and plant forward.",
+          "price": "available upon request",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "gluten-free flour",
