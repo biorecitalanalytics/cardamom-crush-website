@@ -30,15 +30,7 @@
           "price": "",
           "image": "",
           "dietary": "Contains milk",
-          "ingredients": [
-            "black tea",
-            "milk",
-            "cardamom",
-            "ginger",
-            "cinnamon",
-            "cloves",
-            "black pepper"
-          ],
+          "ingredients": [],
           "recipeNote": "Serve hot. Sweeten to taste when requested."
         },
         {
