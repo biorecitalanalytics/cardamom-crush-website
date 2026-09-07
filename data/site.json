@@ -103,7 +103,7 @@
       "visible": true,
       "items": [
         {
-          "name": "NYC Chocolate Chip Cookie",
+          "name": "NYC Style Chocolate Chip walnut cookie",
           "status": "available",
           "description": "Thick gluten-free cookie with dairy-free chocolate chips.",
           "price": "",
@@ -120,9 +120,9 @@
           "recipeNote": "Bringing a classic cookie to the market with a twist. Perfect for all-day snacking."
         },
         {
-          "name": "Almond Croissant Cookie",
+          "name": "Maple Almond Croissant Cookie",
           "status": "available",
-          "description": "Almond-forward cookie with bakery-style flavour.",
+          "description": "Made with Almond flour and toasted almonds, core filled with dairy free chocolate, flourless.",
           "price": "",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
@@ -138,7 +138,7 @@
         {
           "name": "Wholesome Breakfast Cookie",
           "status": "available",
-          "description": "Made with Oats, Raisins, nut butter and aromatic spices.",
+          "description": "Delicious Breakfast cookie made with gluten-free oats, Raisins, nut butter, sunflower seeds, cashews and aromatic spices.",
           "price": "available upon request",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
@@ -151,6 +151,11 @@
             "cinnamon"
           ],
           "recipeNote": "Great as a breakfast-style market item."
+        },
+        {
+          "status": "available",
+          "name": "Cashew Red Velvet Cookie",
+          "description": "A rich, soft-baked red velvet cookie with a subtle cocoa flavour, studded with creamy cashews and dairy-free chocolate chips. Decadent, slightly nutty, and perfectly balanced for a luxurious bite."
         }
       ]
     },
