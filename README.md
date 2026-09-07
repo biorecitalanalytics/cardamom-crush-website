@@ -35,6 +35,25 @@ When you save in `/admin/`, Decap CMS commits the change to the `main` branch. N
 
 Use **Sold out** when customers should still see an item, and **Hidden** when it should disappear from the public menu without being deleted. Turn off **Show this section** to hide an entire menu category temporarily.
 
+### Add or remove menu sections and items
+
+- To add a category such as Cookies or Cupcakes, open **Menu Sections** and select **Add Menu Section**.
+- To add a product, open its category and select **Add Menu Item**.
+- Use the drag handle to change the order of categories or products.
+- Use the trash icon beside a category or product to delete it permanently.
+- Choose **Hidden** instead of deleting an item if you may offer it again later.
+- Select **Publish** when finished. The homepage menu preview and full menu page will both update after Netlify deploys the saved content.
+
+### Add gallery images and customer reviews
+
+- Open **Product Gallery** in the admin editor and select **Add Gallery Image**.
+- Upload a product photo, provide a useful image description, and optionally add a caption.
+- Open **Customer Reviews** and select **Add Customer Review** to enter an approved quote, customer name, and optional context.
+- Drag gallery images or reviews to reorder them, or use the trash icon to remove one.
+- The gallery and review sections stay hidden when empty and appear on the homepage after you add content and publish. Visitors can click any gallery image to view it at a larger size.
+
+Only publish customer messages when you have permission to share them. Use a first name or initials when appropriate, and never include private contact information.
+
 ## What is editable?
 Most business content is now in `data/site.json` and can be edited from `/admin/`:
 

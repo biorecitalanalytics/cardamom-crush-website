@@ -20,7 +20,7 @@
   ],
   "menuSections": [
     {
-      "title": "Drinks",
+      "title": "Chai & Drinks",
       "visible": true,
       "items": [
         {
@@ -30,7 +30,9 @@
           "price": "",
           "image": "",
           "dietary": "Contains milk",
-          "ingredients": [],
+          "ingredients": [
+
+          ],
           "recipeNote": "Serve hot. Sweeten to taste when requested."
         },
         {
@@ -93,7 +95,7 @@
       ]
     },
     {
-      "title": "Baked Treats",
+      "title": "Cookies",
       "visible": true,
       "items": [
         {
@@ -101,6 +103,7 @@
           "status": "available",
           "description": "Thick gluten-free cookie with dairy-free chocolate chips.",
           "price": "",
+          "image": "/assets/menu/sample-chocolate-chip-cookie.jpg",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "almond flour",
@@ -144,12 +147,19 @@
             "cinnamon"
           ],
           "recipeNote": "Great as a breakfast-style market item."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Brownies",
+      "visible": true,
+      "items": [
         {
           "name": "Zucchini Brownie",
           "status": "available",
           "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
           "price": "available upon request",
+          "image": "/assets/menu/sample-zucchini-brownie.jpg",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "zucchini",
@@ -161,12 +171,19 @@
             "coconut sugar"
           ],
           "recipeNote": "A yummy chocolate delight with hidden veggies for a healthier treat."
-        },
+        }
+      ]
+    },
+    {
+      "title": "Cupcakes",
+      "visible": true,
+      "items": [
         {
           "name": "Blueberry Cupcakes",
           "status": "available",
           "description": "Blueberry cupcakes. Gluen-free and plant forward.",
           "price": "available upon request",
+          "image": "/assets/menu/sample-blueberry-cupcake.jpg",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "gluten-free flour",
@@ -234,6 +251,24 @@
       ]
     }
   ],
+  "galleryImages": [
+    {
+      "image": "/assets/menu/sample-chocolate-chip-cookie.jpg",
+      "alt": "Sample photograph of a thick chocolate chip cookie with cardamom pods",
+      "caption": "Chocolate chip cookie — sample image"
+    },
+    {
+      "image": "/assets/menu/sample-zucchini-brownie.jpg",
+      "alt": "Sample photograph of a fudgy zucchini brownie on a ceramic plate",
+      "caption": "Zucchini brownie — sample image"
+    },
+    {
+      "image": "/assets/menu/sample-blueberry-cupcake.jpg",
+      "alt": "Sample photograph of a blueberry cupcake with plant-based cream",
+      "caption": "Blueberry cupcake — sample image"
+    }
+  ],
+  "customerReviews": [],
   "cateringProducts": [
     "Authentic Masala Chai",
     "Chai Concentrate Bottles",
