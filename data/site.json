@@ -59,7 +59,7 @@
         {
           "name": "Traditional Rice Pudding",
           "status": "available",
-          "description": "Creamy, spiced, cardamom rose rice pudding.",
+          "description": "Creamy rice pudding delicately infused with cardamom, saffron, and warm aromatic spices.",
           "price": "",
           "dietary": "Contains milk; gluten-free",
           "ingredients": [
@@ -77,7 +77,7 @@
         {
           "name": "Quinoa Chia Pudding",
           "status": "available",
-          "description": "Plant-based pudding with fruit and nut toppings spiced with cardamom and other warm spices.",
+          "description": "Plant-based, creamy quinoa and chia pudding with a gentle nutty bite, lightly sweetened and warmly spiced for a comforting, satisfying spoonful.",
           "price": "",
           "dietary": "Plant-based; gluten-free",
           "ingredients": [
@@ -93,7 +93,7 @@
         {
           "status": "available",
           "name": "Mango Lassi pudding",
-          "description": "Perfect Breakfast pudding with Chia, coconut, yogurt, saffron, mango puree, and pistachios. Our market favorite.",
+          "description": "Creamy mango lassi pudding with luscious mango, tangy yogurt, and a fragrant touch of cardamom. Perfect Breakfast pudding with Chia, coconut, yogurt, saffron, mango puree, and pistachios. Our market favorite.",
           "dietary": "Gluten-Free, Contains Dairy."
         }
       ]
