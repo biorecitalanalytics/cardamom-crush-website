@@ -61,7 +61,7 @@
           "status": "available",
           "description": "Creamy rice pudding delicately infused with cardamom, saffron, and warm aromatic spices.",
           "price": "",
-          "dietary": "Contains milk; gluten-free",
+          "dietary": "Gluten-Free, Contains Dairy.",
           "ingredients": [
             "whole milk",
             "rice",
@@ -79,7 +79,7 @@
           "status": "available",
           "description": "Plant-based, creamy quinoa and chia pudding with a gentle nutty bite, lightly sweetened and warmly spiced for a comforting, satisfying spoonful.",
           "price": "",
-          "dietary": "Plant-based; gluten-free",
+          "dietary": "Gluten-Free, Plant-Based",
           "ingredients": [
             "quinoa",
             "chia seeds",
@@ -105,19 +105,12 @@
         {
           "name": "NYC Style Chocolate Chip walnut cookie",
           "status": "available",
-          "description": "Thick gluten-free cookie with dairy-free chocolate chips.",
+          "description": "Thick, bakery-style chocolate chip cookie with crisp golden edges, a soft gooey centre, and rich pools of chocolate. Perfect for all day snacking.",
           "price": "",
           "image": "/assets/menu/sample-chocolate-chip-cookie.jpg",
-          "dietary": "Gluten-free; plant-based",
-          "ingredients": [
-            "almond flour",
-            "gluten-free oat flour",
-            "almond butter",
-            "coconut sugar",
-            "apple sauce",
-            "dairy-free chocolate chips"
-          ],
-          "recipeNote": "Bringing a classic cookie to the market with a twist. Perfect for all-day snacking."
+          "dietary": "Gluten-Free, Plant-based",
+          "ingredients": [],
+          "recipeNote": ""
         },
         {
           "name": "Maple Almond Croissant Cookie",
