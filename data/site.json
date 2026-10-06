@@ -20,6 +20,74 @@
   ],
   "menuSections": [
     {
+      "title": "Cookies",
+      "visible": true,
+      "items": [
+        {
+          "name": "NYC Style Chocolate Chip walnut cookie",
+          "status": "available",
+          "description": "Thick, bakery-style chocolate chip cookie with crisp golden edges, a soft gooey centre, and rich pools of chocolate. Perfect for all day snacking.",
+          "price": "$4.00",
+          "image": "/assets/menu/sample-chocolate-chip-cookie.jpg",
+          "dietary": "Gluten-Free, Plant-based",
+          "ingredients": [
+            "Gluten-free flour blend, oat flour, almond flour, cornstarch, plant-based butter, light brown sugar, granulated sugar, dark chocolate, ground flaxseed, unsweetened soy milk, pure vanilla extract, baking powder, baking soda, and sea salt."
+          ],
+          "recipeNote": ""
+        },
+        {
+          "name": "Maple Almond Croissant Cookie",
+          "status": "available",
+          "description": "Made with Almond flour and toasted almonds, core filled with dairy free chocolate, flourless.",
+          "price": "$4.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "almond flour",
+            "maple syrup",
+            "vegan butter",
+            "almond extract",
+            "sliced almonds",
+            "powdered sugar"
+          ],
+          "recipeNote": "Healthy and delicious treat with a hint of indulgence."
+        },
+        {
+          "name": "Wholesome Breakfast Cookie",
+          "status": "available",
+          "description": "Delicious Breakfast cookie made with gluten-free oats, Raisins, nut butter, sunflower seeds, cashews and aromatic spices.",
+          "price": "$4.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "gluten-free oats",
+            "almond butter",
+            "chickpea flour",
+            "coconut sugar",
+            "maple syrup",
+            "raisins",
+            "cinnamon"
+          ],
+          "recipeNote": "Great as a breakfast-style market item."
+        },
+        {
+          "status": "available",
+          "name": "Cashew Red Velvet Cookie",
+          "description": "A rich, soft-baked red velvet cookie with a subtle cocoa flavour, studded with creamy cashews and dairy-free chocolate chips. Decadent, slightly nutty, and perfectly balanced for a luxurious bite.",
+          "price": "$4.00",
+          "dietary": "Gluten-free; plant-based"
+        },
+        {
+          "status": "available",
+          "name": "Pistachio Rose Cardamom Cookie",
+          "description": "Fragrant, buttery cookie infused with warm cardamom, delicately scented with rose, and finished with crunchy pistachios for an elegant, nutty bite.",
+          "price": "$4.00",
+          "ingredients": [
+            "Gluten Free Flour Blend (rice flour, potato starch, tapioca starch, whole sorghum flour, whole brown rice flour, whole quinoa flour, xanthan gum), Light Brown Sugar, Pistachio, Edible Rose Petals, Plant-Based Butter, Granulated Cane Sugar, Organic Flax Seeds, Unsweetened Organic Soy Milk, Cornstarch, Pure Vanilla Extract, Cardamom, Baking Powder, Baking Soda, Sea Salt"
+          ],
+          "dietary": "Gluten-free; plant-based"
+        }
+      ]
+    },
+    {
       "title": "Chai & Drinks",
       "visible": true,
       "items": [
@@ -97,72 +165,6 @@
           "name": "Mango Lassi pudding",
           "description": "Creamy mango lassi pudding with luscious mango, tangy yogurt, and a fragrant touch of cardamom. Perfect Breakfast pudding with Chia, coconut, yogurt, saffron, mango puree, and pistachios. Our market favorite.",
           "dietary": "Gluten-Free, Contains Dairy."
-        }
-      ]
-    },
-    {
-      "title": "Cookies",
-      "visible": true,
-      "items": [
-        {
-          "name": "NYC Style Chocolate Chip walnut cookie",
-          "status": "available",
-          "description": "Thick, bakery-style chocolate chip cookie with crisp golden edges, a soft gooey centre, and rich pools of chocolate. Perfect for all day snacking.",
-          "price": "$4.00",
-          "image": "/assets/menu/sample-chocolate-chip-cookie.jpg",
-          "dietary": "Gluten-Free, Plant-based",
-          "ingredients": [],
-          "recipeNote": ""
-        },
-        {
-          "name": "Maple Almond Croissant Cookie",
-          "status": "available",
-          "description": "Made with Almond flour and toasted almonds, core filled with dairy free chocolate, flourless.",
-          "price": "$4.00",
-          "dietary": "Gluten-free; plant-based",
-          "ingredients": [
-            "almond flour",
-            "maple syrup",
-            "vegan butter",
-            "almond extract",
-            "sliced almonds",
-            "powdered sugar"
-          ],
-          "recipeNote": "Healthy and delicious treat with a hint of indulgence."
-        },
-        {
-          "name": "Wholesome Breakfast Cookie",
-          "status": "available",
-          "description": "Delicious Breakfast cookie made with gluten-free oats, Raisins, nut butter, sunflower seeds, cashews and aromatic spices.",
-          "price": "$4.00",
-          "dietary": "Gluten-free; plant-based",
-          "ingredients": [
-            "gluten-free oats",
-            "almond butter",
-            "chickpea flour",
-            "coconut sugar",
-            "maple syrup",
-            "raisins",
-            "cinnamon"
-          ],
-          "recipeNote": "Great as a breakfast-style market item."
-        },
-        {
-          "status": "available",
-          "name": "Cashew Red Velvet Cookie",
-          "description": "A rich, soft-baked red velvet cookie with a subtle cocoa flavour, studded with creamy cashews and dairy-free chocolate chips. Decadent, slightly nutty, and perfectly balanced for a luxurious bite.",
-          "price": "$4.00",
-          "dietary": "Gluten-free; plant-based"
-        },
-        {
-          "status": "available",
-          "name": "Pistachio Rose Cardamom Cookie",
-          "description": "Fragrant, buttery cookie infused with warm cardamom, delicately scented with rose, and finished with crunchy pistachios for an elegant, nutty bite.",
-          "price": "$4.00",
-          "ingredients": [
-            "Gluten Free Flour Blend (rice flour, potato starch, tapioca starch, whole sorghum flour, whole brown rice flour, whole quinoa flour, xanthan gum), Light Brown Sugar, Pistachio, Edible Rose Petals, Plant-Based Butter, Granulated Cane Sugar, Organic Flax Seeds, Unsweetened Organic Soy Milk, Cornstarch, Pure Vanilla Extract, Cardamom, Baking Powder, Baking Soda, Sea Salt"
-          ],
-          "dietary": "Gluten-free; plant-based"
         }
       ]
     },
