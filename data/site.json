@@ -91,111 +91,6 @@
       ]
     },
     {
-      "title": "Chai & Drinks",
-      "visible": true,
-      "items": [
-        {
-          "name": "Authentic Masala Chai",
-          "status": "available",
-          "description": "Warm brewed chai with milk and traditional spices.",
-          "price": "$5.00",
-          "image": "",
-          "dietary": "Contains milk; Can be made with dairy-free milk upon request",
-          "ingredients": [
-            "Water, milk, black tea, fresh ginger, green cardamom, cinnamon, cloves, black pepper, fennel seeds, star anise, and mint."
-          ],
-          "recipeNote": ""
-        },
-        {
-          "name": "Chai Concentrate Bottles (1L)",
-          "status": "available",
-          "description": "A bold, aromatic chai concentrate slow-simmered with black tea and warming whole spices. Simply mix 1:1 with milk and enjoy hot or iced.",
-          "price": "$15.00",
-          "dietary": "Gluten-free; plant-based; no added sugar; dairy-free",
-          "ingredients": [
-            "black tea",
-            "cardamom",
-            "ginger",
-            "cinnamon",
-            "cloves",
-            "black pepper",
-            "mint"
-          ],
-          "recipeNote": "Keep refrigerated. Mix 1:1 (one part concentrate and one part milk of your choice), add sweetener of your choice, serve hot or cold over ice."
-        }
-      ]
-    },
-    {
-      "title": "Puddings",
-      "visible": true,
-      "items": [
-        {
-          "name": "Traditional Rice Pudding",
-          "status": "available",
-          "description": "Creamy rice pudding delicately infused with cardamom, saffron, and warm aromatic spices.",
-          "price": "",
-          "dietary": "Gluten-Free, Contains Dairy.",
-          "ingredients": [
-            "whole milk",
-            "rice",
-            "dates",
-            "jaggery",
-            "golden raisins",
-            "cardamom",
-            "saffron",
-            "nuts"
-          ],
-          "recipeNote": "Serve chilled or gently warmed. Garnish before serving."
-        },
-        {
-          "name": "Quinoa Chia Pudding",
-          "status": "available",
-          "description": "Plant-based, creamy quinoa and chia pudding with a gentle nutty bite, lightly sweetened and warmly spiced for a comforting, satisfying spoonful.",
-          "price": "",
-          "dietary": "Gluten-Free, Plant-Based",
-          "ingredients": [
-            "quinoa",
-            "chia seeds",
-            "almond milk",
-            "maple syrup",
-            "blueberries",
-            "sliced almonds"
-          ],
-          "recipeNote": "Keep chilled. Add toppings close to serving time."
-        },
-        {
-          "status": "available",
-          "name": "Mango Lassi pudding",
-          "description": "Creamy mango lassi pudding with luscious mango, tangy yogurt, and a fragrant touch of cardamom. Perfect Breakfast pudding with Chia, coconut, yogurt, saffron, mango puree, and pistachios. Our market favorite.",
-          "dietary": "Gluten-Free, Contains Dairy."
-        }
-      ]
-    },
-    {
-      "title": "Brownies",
-      "visible": true,
-      "items": [
-        {
-          "name": "Zucchini Brownie",
-          "status": "available",
-          "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
-          "price": "$5.00",
-          "image": "/assets/menu/sample-zucchini-brownie.jpg",
-          "dietary": "Gluten-free; plant-based",
-          "ingredients": [
-            "zucchini",
-            "flax seeds",
-            "almond flour",
-            "peanut butter",
-            "cocoa powder",
-            "maple syrup",
-            "coconut sugar"
-          ],
-          "recipeNote": "A yummy chocolate delight with hidden veggies for a healthier treat."
-        }
-      ]
-    },
-    {
       "title": "Cupcakes",
       "visible": true,
       "items": [
@@ -239,6 +134,66 @@
             "Gluten-free flour blend, pumpkin purée, brown sugar, pure maple syrup, vegetable oil, vanilla extract, pumpkin spice, cinnamon, baking powder, baking soda, and sea salt. Streusel: Gluten-free flour blend, plant-based butter, cane sugar, pumpkin spice, and orange zest"
           ],
           "description": "A cozy pumpkin cupcake infused with warming chai-inspired spices and topped with a buttery spiced streusel — soft, aromatic, and full of fall flavour."
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "title": "Breakfast Squares",
+      "items": [
+        {
+          "status": "available",
+          "name": "Blueberry Almond Oat Square",
+          "price": "$5.00",
+          "ingredients": [
+            "Gluten-Free Oats, Almond Flour, Organic Coconut Oil, Pure Maple Syrup, Pure Vanilla Extract, Sea Salt, Blueberries, Chia Seeds, Corn Starch, Date Puree, Shredded Coconut."
+          ],
+          "dietary": "Gluten-free; plant-based",
+          "description": "A wholesome oat and almond square layered with juicy blueberries, chia seeds, and naturally sweet date purée, finished with a hint of coconut."
+        },
+        {
+          "status": "available",
+          "name": "Walnut Date Cardamom Square",
+          "description": "A hearty oat and almond square with rich Medjool dates and walnuts, warmly spiced with cardamom and finished with a cinnamon crunch.",
+          "price": "$5.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Gluten-Free Oats, Almond Flour, Organic Coconut Oil, Organic Medjool Dates, Walnuts, Pure Maple Syrup, Pure Vanilla Extract, Sea Salt, Date Puree, Shredded Coconut, Cardamom, Cinnamon Crunch"
+          ]
+        },
+        {
+          "status": "available",
+          "name": "Apple Crumble Cardamom Square",
+          "description": "Tender spiced apples layered with a wholesome oat crumble, naturally sweetened with date and maple, and warmly scented with cinnamon and cardamom.",
+          "price": "$5.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Gluten-free oats, gluten-free flour, apples, date purée, organic coconut oil, pure maple syrup, almond flour, shredded coconut, cinnamon, cardamom, pure vanilla extract, and sea salt."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Brownies",
+      "visible": true,
+      "items": [
+        {
+          "name": "Zucchini Brownie",
+          "status": "available",
+          "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
+          "price": "$5.00",
+          "image": "/assets/menu/sample-zucchini-brownie.jpg",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "zucchini",
+            "flax seeds",
+            "almond flour",
+            "peanut butter",
+            "cocoa powder",
+            "maple syrup",
+            "coconut sugar"
+          ],
+          "recipeNote": "A yummy chocolate delight with hidden veggies for a healthier treat."
         }
       ]
     },
@@ -312,38 +267,83 @@
       ]
     },
     {
+      "title": "Puddings",
       "visible": true,
-      "title": "Breakfast Squares",
       "items": [
         {
+          "name": "Traditional Rice Pudding",
           "status": "available",
-          "name": "Blueberry Almond Oat Square",
-          "price": "$5.00",
+          "description": "Creamy rice pudding delicately infused with cardamom, saffron, and warm aromatic spices.",
+          "price": "",
+          "dietary": "Gluten-Free, Contains Dairy.",
           "ingredients": [
-            "Gluten-Free Oats, Almond Flour, Organic Coconut Oil, Pure Maple Syrup, Pure Vanilla Extract, Sea Salt, Blueberries, Chia Seeds, Corn Starch, Date Puree, Shredded Coconut."
+            "whole milk",
+            "rice",
+            "dates",
+            "jaggery",
+            "golden raisins",
+            "cardamom",
+            "saffron",
+            "nuts"
           ],
-          "dietary": "Gluten-free; plant-based",
-          "description": "A wholesome oat and almond square layered with juicy blueberries, chia seeds, and naturally sweet date purée, finished with a hint of coconut."
+          "recipeNote": "Serve chilled or gently warmed. Garnish before serving."
+        },
+        {
+          "name": "Quinoa Chia Pudding",
+          "status": "available",
+          "description": "Plant-based, creamy quinoa and chia pudding with a gentle nutty bite, lightly sweetened and warmly spiced for a comforting, satisfying spoonful.",
+          "price": "",
+          "dietary": "Gluten-Free, Plant-Based",
+          "ingredients": [
+            "quinoa",
+            "chia seeds",
+            "almond milk",
+            "maple syrup",
+            "blueberries",
+            "sliced almonds"
+          ],
+          "recipeNote": "Keep chilled. Add toppings close to serving time."
         },
         {
           "status": "available",
-          "name": "Walnut Date Cardamom Square",
-          "description": "A hearty oat and almond square with rich Medjool dates and walnuts, warmly spiced with cardamom and finished with a cinnamon crunch.",
+          "name": "Mango Lassi pudding",
+          "description": "Creamy mango lassi pudding with luscious mango, tangy yogurt, and a fragrant touch of cardamom. Perfect Breakfast pudding with Chia, coconut, yogurt, saffron, mango puree, and pistachios. Our market favorite.",
+          "dietary": "Gluten-Free, Contains Dairy."
+        }
+      ]
+    },
+    {
+      "title": "Chai & Drinks",
+      "visible": true,
+      "items": [
+        {
+          "name": "Authentic Masala Chai",
+          "status": "available",
+          "description": "Warm brewed chai with milk and traditional spices.",
           "price": "$5.00",
-          "dietary": "Gluten-free; plant-based",
+          "image": "",
+          "dietary": "Contains milk; Can be made with dairy-free milk upon request",
           "ingredients": [
-            "Gluten-Free Oats, Almond Flour, Organic Coconut Oil, Organic Medjool Dates, Walnuts, Pure Maple Syrup, Pure Vanilla Extract, Sea Salt, Date Puree, Shredded Coconut, Cardamom, Cinnamon Crunch"
-          ]
+            "Water, milk, black tea, fresh ginger, green cardamom, cinnamon, cloves, black pepper, fennel seeds, star anise, and mint."
+          ],
+          "recipeNote": ""
         },
         {
+          "name": "Chai Concentrate Bottles (1L)",
           "status": "available",
-          "name": "Apple Crumble Cardamom Square",
-          "description": "Tender spiced apples layered with a wholesome oat crumble, naturally sweetened with date and maple, and warmly scented with cinnamon and cardamom.",
-          "price": "$5.00",
-          "dietary": "Gluten-free; plant-based",
+          "description": "A bold, aromatic chai concentrate slow-simmered with black tea and warming whole spices. Simply mix 1:1 with milk and enjoy hot or iced.",
+          "price": "$15.00",
+          "dietary": "Gluten-free; plant-based; no added sugar; dairy-free",
           "ingredients": [
-            "Gluten-free oats, gluten-free flour, apples, date purée, organic coconut oil, pure maple syrup, almond flour, shredded coconut, cinnamon, cardamom, pure vanilla extract, and sea salt."
-          ]
+            "black tea",
+            "cardamom",
+            "ginger",
+            "cinnamon",
+            "cloves",
+            "black pepper",
+            "mint"
+          ],
+          "recipeNote": "Keep refrigerated. Mix 1:1 (one part concentrate and one part milk of your choice), add sweetener of your choice, serve hot or cold over ice."
         }
       ]
     }
