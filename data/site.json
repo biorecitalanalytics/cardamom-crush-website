@@ -27,18 +27,20 @@
           "name": "Authentic Masala Chai",
           "status": "available",
           "description": "Warm brewed chai with milk and traditional spices.",
-          "price": "",
+          "price": "$5.00",
           "image": "",
-          "dietary": "Contains milk",
-          "ingredients": [],
-          "recipeNote": "Serve hot. Sweeten to taste when requested."
+          "dietary": "Contains milk; Can be made with dairy-free milk upon request",
+          "ingredients": [
+            "Water, milk, black tea, fresh ginger, green cardamom, cinnamon, cloves, black pepper, fennel seeds, star anise, and mint."
+          ],
+          "recipeNote": ""
         },
         {
-          "name": "Chai Concentrate Bottles",
+          "name": "Chai Concentrate Bottles (1L)",
           "status": "available",
-          "description": "Take-home brewed concentrate. Add milk and sweetener to taste. Available in two sizes 500ml and 1 litre bottles.",
-          "price": "",
-          "dietary": "No milk or sugar added unless noted",
+          "description": "A bold, aromatic chai concentrate slow-simmered with black tea and warming whole spices. Simply mix 1:1 with milk and enjoy hot or iced.",
+          "price": "$15.00",
+          "dietary": "Gluten-free; plant-based; no added sugar; dairy-free",
           "ingredients": [
             "black tea",
             "cardamom",
