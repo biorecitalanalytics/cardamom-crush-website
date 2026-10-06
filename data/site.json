@@ -106,7 +106,7 @@
           "name": "NYC Style Chocolate Chip walnut cookie",
           "status": "available",
           "description": "Thick, bakery-style chocolate chip cookie with crisp golden edges, a soft gooey centre, and rich pools of chocolate. Perfect for all day snacking.",
-          "price": "",
+          "price": "$4.00",
           "image": "/assets/menu/sample-chocolate-chip-cookie.jpg",
           "dietary": "Gluten-Free, Plant-based",
           "ingredients": [],
@@ -116,7 +116,7 @@
           "name": "Maple Almond Croissant Cookie",
           "status": "available",
           "description": "Made with Almond flour and toasted almonds, core filled with dairy free chocolate, flourless.",
-          "price": "",
+          "price": "$4.00",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "almond flour",
@@ -132,7 +132,7 @@
           "name": "Wholesome Breakfast Cookie",
           "status": "available",
           "description": "Delicious Breakfast cookie made with gluten-free oats, Raisins, nut butter, sunflower seeds, cashews and aromatic spices.",
-          "price": "available upon request",
+          "price": "$4.00",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "gluten-free oats",
@@ -148,7 +148,19 @@
         {
           "status": "available",
           "name": "Cashew Red Velvet Cookie",
-          "description": "A rich, soft-baked red velvet cookie with a subtle cocoa flavour, studded with creamy cashews and dairy-free chocolate chips. Decadent, slightly nutty, and perfectly balanced for a luxurious bite."
+          "description": "A rich, soft-baked red velvet cookie with a subtle cocoa flavour, studded with creamy cashews and dairy-free chocolate chips. Decadent, slightly nutty, and perfectly balanced for a luxurious bite.",
+          "price": "$4.00",
+          "dietary": "Gluten-free; plant-based"
+        },
+        {
+          "status": "available",
+          "name": "Pistachio Rose Cardamom Cookie",
+          "description": "Fragrant, buttery cookie infused with warm cardamom, delicately scented with rose, and finished with crunchy pistachios for an elegant, nutty bite.",
+          "price": "$4.00",
+          "ingredients": [
+            "Gluten Free Flour Blend (rice flour, potato starch, tapioca starch, whole sorghum flour, whole brown rice flour, whole quinoa flour, xanthan gum), Light Brown Sugar, Pistachio, Edible Rose Petals, Plant-Based Butter, Granulated Cane Sugar, Organic Flax Seeds, Unsweetened Organic Soy Milk, Cornstarch, Pure Vanilla Extract, Cardamom, Baking Powder, Baking Soda, Sea Salt"
+          ],
+          "dietary": "Gluten-free; plant-based"
         }
       ]
     },
@@ -160,7 +172,7 @@
           "name": "Zucchini Brownie",
           "status": "available",
           "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
-          "price": "available upon request",
+          "price": "$5.00",
           "image": "/assets/menu/sample-zucchini-brownie.jpg",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
@@ -181,21 +193,45 @@
       "visible": true,
       "items": [
         {
-          "name": "Blueberry Cupcakes",
+          "name": "Blueberry Lemon Cupcakes",
           "status": "available",
-          "description": "Blueberry cupcakes. Gluen-free and plant forward.",
-          "price": "available upon request",
+          "description": "Perfect for a sweet treat that's both healthy and delicious.",
+          "price": "$5.00",
           "image": "/assets/menu/sample-blueberry-cupcake.jpg",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
-            "gluten-free flour",
-            "dairy-free milk",
-            "vegan butter",
-            "neutral oil",
-            "vanilla",
-            "blueberries or chocolate chips"
+            "Gluten Free Flour Blend (rice flour, potato starch, tapioca starch, whole sorghum flour, whole brown rice flour, whole quinoa flour, xanthan gum), Organic Soy Milk, Organic ver Corn Starchasak! • rowder, baking soda, sea dall Neutra 1, Plant-based Butter, Apple • Cider vinegar. Lemon uice. Pure VanilaExtraci Organic Natural Brown Sugar, Icing (icing sugar, vegetable shortening, com starch, and water)"
           ],
-          "recipeNote": "Perfect for a sweet treat that's both healthy and delicious."
+          "recipeNote": ""
+        },
+        {
+          "status": "available",
+          "name": "Chocolate Chip Cupcake",
+          "price": "$5.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Gluten Free Flour Blend (rice flour, potato starch, tapioca starch, whole sorghum flour whole brown rice tour, whole quinoa hour, xanthal запіс эоу мик. Dall arre chocolate Chips (unsweetened chocolate, cocoa butter, sugar). • Sugar. Corn Starch Baking Powder, Baking Soda, Sea Salt, Neutral Oil, Plant-based Butter, Apple Cide Vinegar. Pure Vanilla Extract, Organic Natural Brown Sugar, Optional Icing (cane sugar, shortening, cocoa powder, and stabilizers), dry strawberries (Optional)."
+          ]
+        },
+        {
+          "status": "available",
+          "name": "Orange Cranberry Cardamom Cupcake",
+          "price": "$5.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Gluten-free all-purpose flour, unsweetened soy milk, granulated sugar, dried cranberries, neutral vegetable oil, plant-based butter, cornstarch, fresh orange juice, orange zest, pure vanilla extract, apple cider vinegar, cardamom, baking powder, baking soda, and salt."
+          ],
+          "description": "A soft, fragrant cupcake bursting with bright orange, tart cranberries, and warm aromatic cardamom for a perfectly balanced, refreshing bite."
+        },
+        {
+          "status": "available",
+          "name": "Pumpkin Chai Spice Cupcake",
+          "price": "$5.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Gluten-free flour blend, pumpkin purée, brown sugar, pure maple syrup, vegetable oil, vanilla extract, pumpkin spice, cinnamon, baking powder, baking soda, and sea salt. Streusel: Gluten-free flour blend, plant-based butter, cane sugar, pumpkin spice, and orange zest"
+          ],
+          "description": "A cozy pumpkin cupcake infused with warming chai-inspired spices and topped with a buttery spiced streusel — soft, aromatic, and full of fall flavour."
         }
       ]
     },
