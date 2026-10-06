@@ -73,7 +73,10 @@
           "name": "Cashew Red Velvet Cookie",
           "description": "A rich, soft-baked red velvet cookie with a subtle cocoa flavour, studded with creamy cashews and dairy-free chocolate chips. Decadent, slightly nutty, and perfectly balanced for a luxurious bite.",
           "price": "$4.00",
-          "dietary": "Gluten-free; plant-based"
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Gluten-free flour blend, oat flour, almond flour, cornstarch, plant-based butter, light brown sugar, granulated sugar, cashews, chocolate chips, ground flaxseed, unsweetened soy milk, Dutch-process cocoa powder, pure vanilla extract, apple cider vinegar, baking powder, baking soda, sea salt, and red food colouring."
+          ]
         },
         {
           "status": "available",
