@@ -271,7 +271,7 @@
           "recipeNote": "A protein-rich energy bite inspired by traditional flavors and crafted for lasting satisfaction."
         },
         {
-          "name": "Snike Balls",
+          "name": "Sniker Balls",
           "status": "available",
           "description": "Inspired by a classic chocolate-peanut combination, these rich bites combine dates, peanut butter, pistachios, and dark chocolate for an indulgent yet wholesome treat.",
           "price": "",
@@ -285,6 +285,22 @@
             "dark chocolate"
           ],
           "recipeNote": "Our wholesome take on a beloved chocolate-caramel flavor profile, made with real ingredients and naturally sweetened dates."
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "title": "Macaroons",
+      "items": [
+        {
+          "status": "available",
+          "name": "Coconut Macaroons",
+          "price": "$4.00",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "Shredded coconut, coconut milk, maple syrup, dark chocolate, rice flour, and sea salt"
+          ],
+          "description": "A chewy coconut treat with crisp toasted edges combined with chocolate covered base offering deliciousness in every bite."
         }
       ]
     }
