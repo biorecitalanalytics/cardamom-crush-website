@@ -99,7 +99,7 @@
           "status": "available",
           "description": "Perfect for a sweet treat that's both healthy and delicious.",
           "price": "$5.00",
-          "image": "/assets/menu/sample-blueberry-cupcake.jpg",
+          "image": "",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "Gluten Free Flour Blend (rice flour, potato starch, tapioca starch, whole sorghum flour, whole brown rice flour, whole quinoa flour, xanthan gum), Organic Soy Milk, Organic ver Corn Starchasak! • rowder, baking soda, sea dall Neutra 1, Plant-based Butter, Apple • Cider vinegar. Lemon uice. Pure VanilaExtraci Organic Natural Brown Sugar, Icing (icing sugar, vegetable shortening, com starch, and water)"
@@ -160,7 +160,7 @@
           "ingredients": [
             "Gluten-Free Oats, Almond Flour, Organic Coconut Oil, Organic Medjool Dates, Walnuts, Pure Maple Syrup, Pure Vanilla Extract, Sea Salt, Date Puree, Shredded Coconut, Cardamom, Cinnamon Crunch"
           ],
-          "image": "/assets/menu/glazed-date-walnut-crumble-bar.jpg"
+          "image": ""
         },
         {
           "status": "available",
@@ -236,7 +236,7 @@
           "status": "available",
           "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
           "price": "$5.00",
-          "image": "/assets/menu/sample-zucchini-brownie.jpg",
+          "image": "",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "zucchini",
