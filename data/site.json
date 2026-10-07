@@ -174,30 +174,6 @@
       ]
     },
     {
-      "title": "Brownies",
-      "visible": true,
-      "items": [
-        {
-          "name": "Zucchini Brownie",
-          "status": "available",
-          "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
-          "price": "$5.00",
-          "image": "/assets/menu/sample-zucchini-brownie.jpg",
-          "dietary": "Gluten-free; plant-based",
-          "ingredients": [
-            "zucchini",
-            "flax seeds",
-            "almond flour",
-            "peanut butter",
-            "cocoa powder",
-            "maple syrup",
-            "coconut sugar"
-          ],
-          "recipeNote": "A yummy chocolate delight with hidden veggies for a healthier treat."
-        }
-      ]
-    },
-    {
       "title": "Energy Bliss Balls",
       "visible": true,
       "items": [
@@ -247,6 +223,30 @@
             "dark chocolate"
           ],
           "recipeNote": "Our wholesome take on a beloved chocolate-caramel flavor profile, made with real ingredients and naturally sweetened dates."
+        }
+      ]
+    },
+    {
+      "title": "Brownies",
+      "visible": true,
+      "items": [
+        {
+          "name": "Zucchini Brownie",
+          "status": "available",
+          "description": "Fudgy brownie made with zucchini and cocoa. Perfect gluten-free treat for chocolate lovers.",
+          "price": "$5.00",
+          "image": "/assets/menu/sample-zucchini-brownie.jpg",
+          "dietary": "Gluten-free; plant-based",
+          "ingredients": [
+            "zucchini",
+            "flax seeds",
+            "almond flour",
+            "peanut butter",
+            "cocoa powder",
+            "maple syrup",
+            "coconut sugar"
+          ],
+          "recipeNote": "A yummy chocolate delight with hidden veggies for a healthier treat."
         }
       ]
     },
