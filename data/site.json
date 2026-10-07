@@ -91,7 +91,7 @@
       ]
     },
     {
-      "title": "Cupcakes",
+      "title": "Cupcakes and Muffins",
       "visible": true,
       "items": [
         {
@@ -127,13 +127,13 @@
         },
         {
           "status": "available",
-          "name": "Pumpkin Chai Spice Cupcake",
+          "name": "Pumpkin Chai Spice Muffin",
           "price": "$5.00",
           "dietary": "Gluten-free; plant-based",
           "ingredients": [
             "Gluten-free flour blend, pumpkin purée, brown sugar, pure maple syrup, vegetable oil, vanilla extract, pumpkin spice, cinnamon, baking powder, baking soda, and sea salt. Streusel: Gluten-free flour blend, plant-based butter, cane sugar, pumpkin spice, and orange zest"
           ],
-          "description": "A cozy pumpkin cupcake infused with warming chai-inspired spices and topped with a buttery spiced streusel — soft, aromatic, and full of fall flavour."
+          "description": "A cozy pumpkin muffin infused with warming chai-inspired spices and topped with a buttery spiced streusel — soft, aromatic, and full of fall flavour."
         }
       ]
     },
@@ -375,6 +375,11 @@
       "image": "/assets/menu/pumpkin_chai_spice_muffin_menu.jpg",
       "alt": "Sample photograph of a Pumpkin Chai Spice Muffin",
       "caption": "Pumpkin Chai Spice Muffin"
+    },
+    {
+      "alt": "Sample photograph of a Cashew Red Velvet cookie",
+      "caption": "Cashew Red Velvet Cookie",
+      "image": "/assets/menu/cashew-red-velvet-cookie.png"
     }
   ],
   "customerReviews": [],
