@@ -365,6 +365,11 @@
       "image": "/assets/menu/sample-blueberry-cupcake.jpg",
       "alt": "Sample photograph of a blueberry cupcake with plant-based cream",
       "caption": "Blueberry cupcake"
+    },
+    {
+      "image": "/assets/menu/glazed-date-walnut-crumble-bar.jpg",
+      "alt": "Sample photograph of a date walnut cardamom square with date drizzle.",
+      "caption": "Walnut Date Cardamom Square"
     }
   ],
   "customerReviews": [],
