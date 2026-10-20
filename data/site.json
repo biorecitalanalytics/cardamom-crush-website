@@ -9,15 +9,7 @@
     "facebook": "https://www.facebook.com/cardamomcrush",
     "facebookHandle": "@cardamomcrush"
   },
-  "marketVenues": [
-    {
-      "name": "Carleton Place Farmers' Market",
-      "location": "11 Beckwith Street, Carleton Place, Ontario, K7C 0R1",
-      "schedule": "Saturdays from 8:30 AM to 12:30 PM during market season",
-      "booth": "Booth number to be confirmed",
-      "notes": "Follow us on Instagram and Facebook for weekly menu updates, free samples, and weather-related changes."
-    }
-  ],
+  "marketVenues": [],
   "menuSections": [
     {
       "title": "Cookies",
