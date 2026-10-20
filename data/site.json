@@ -412,5 +412,21 @@
       "label": "Contact Us",
       "url": "contact.html"
     }
+  ],
+  "announcements": [
+    {
+      "title": "Now accepting pre-orders.",
+      "message": "",
+      "linkLabel": "Contact us to place your order",
+      "url": "contact.html#contact-form",
+      "visible": true
+    },
+    {
+      "title": "A little sweetness for your next gathering",
+      "message": "Explore our gluten-free and plant-forward treats for celebrations, office gatherings, and special moments.",
+      "linkLabel": "Explore catering & orders",
+      "url": "catering.html",
+      "visible": true
+    }
   ]
 }

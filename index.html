@@ -16,7 +16,7 @@
     <meta property="og:image" content="https://cardamomcrush.ca/assets/cardamom-crush-logo.png">
     <link rel="icon" href="assets/cardamom-crush-logo.png">
     <link rel="apple-touch-icon" href="assets/cardamom-crush-logo.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=announcement-panel">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script type="application/ld+json">
     {
@@ -51,6 +51,7 @@
         <header class="editorial-hero">
             <div class="editorial-hero-main">
                 <h1>Gluten-Free &amp; Plant Forward</h1>
+                <section class="editorial-announcements" data-editable="announcements" aria-label="Latest announcements" hidden></section>
             </div>
             <div class="editorial-hero-side">
                 <div class="editorial-intro">
@@ -142,7 +143,7 @@
         </div>
     </footer>
     <script src="editable-data.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js?v=announcements"></script>
     <script>
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", function (user) {

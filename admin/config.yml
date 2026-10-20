@@ -33,6 +33,21 @@ collections:
               - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
               - { label: "Facebook Handle", name: "facebookHandle", widget: "string", required: false }
 
+          - label: "Announcements"
+            name: "announcements"
+            widget: "list"
+            label_singular: "Announcement"
+            required: false
+            collapsed: true
+            summary: "{{fields.title}}"
+            hint: "Messages appear below the homepage headline. Drag to reorder, delete to remove, or switch off Show announcement to hide a message."
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Message", name: "message", widget: "text", required: false }
+              - { label: "Link Text", name: "linkLabel", widget: "string", required: false }
+              - { label: "Link URL", name: "url", widget: "string", required: false, hint: "For the contact form, use contact.html#contact-form." }
+              - { label: "Show announcement", name: "visible", widget: "boolean", default: true, required: false }
+
           - label: "Menu Sections"
             name: "menuSections"
             widget: "list"

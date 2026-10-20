@@ -72,7 +72,31 @@ function renderReviews(){
 function renderMarkets(){const el=document.querySelector('[data-editable="markets"]');if(!el||!data.marketVenues)return;el.innerHTML=data.marketVenues.map(v=>`<section class="panel"><h2>${esc(v.name)}</h2><p><strong>Location:</strong> ${esc(v.location)}</p><p><strong>Schedule:</strong> ${esc(v.schedule)}</p><p><strong>Booth:</strong> ${esc(v.booth)}</p><p>${esc(v.notes)}</p><a class="btn btn-primary" href="links.html">Follow for Updates</a></section>`).join('')+`<section class="green-block"><h2>Free Samples</h2><p>Ask us about rice pudding, chai, and seasonal samples at the booth.</p><p>Rice pudding and chai contain milk. Gluten-free and plant-based treats are available.</p></section>`}
 function renderCateringProducts(){const el=document.querySelector('[data-editable="catering-products"]');if(!el||!data.cateringProducts)return;el.innerHTML=data.cateringProducts.map((p,i)=>`<label class="check"><input type="checkbox" name="products[]" value="${esc(p)}"> ${esc(p)}</label>`).join('')+`<label class="field"><span>Other / Notes</span><textarea name="products_notes" placeholder="Any other items, quantities, or dietary needs..."></textarea></label>`}
 function renderLinks(){const el=document.querySelector('[data-editable="links-page"]');if(!el||!data.linksPage)return;const b=data.business||{};el.innerHTML=data.linksPage.map(l=>{const url=l.businessLink?b[l.businessLink]:l.url;const icon=l.icon?socialIcon(l.icon):'';return `<a class="link-card${l.icon?' link-card-social':''}" href="${esc(url)}">${icon}<span>${esc(l.label)}</span></a>`}).join('')}
-function renderEditableContent(){renderBusinessInfo();renderMenu();renderHomeMenu();renderGallery();renderReviews();renderMarkets();renderCateringProducts();renderLinks();}
+function renderAnnouncements(){
+  const el=document.querySelector('[data-editable="announcements"]');
+  if(!el)return;
+  el.replaceChildren();
+  (data.announcements||[]).filter(item=>item&&item.visible!==false&&item.title).forEach(item=>{
+    const announcement=document.createElement('p');
+    announcement.className='editorial-preorder';
+    const title=document.createElement('strong');
+    title.textContent=item.title;
+    announcement.append(title);
+    if(item.message){const message=document.createElement('span');message.className='announcement-message';message.textContent=item.message;announcement.append(message);}
+    if(item.linkLabel&&item.url){
+      try{
+        const url=new URL(item.url,window.location.href);
+        if(['http:','https:','mailto:','tel:'].includes(url.protocol)){
+          const link=document.createElement('a');link.href=url.href;link.textContent=item.linkLabel+' →';
+          announcement.append(document.createElement('br'),link);
+        }
+      }catch{}
+    }
+    el.append(announcement);
+  });
+  el.hidden=!el.childElementCount;
+}
+function renderEditableContent(){renderBusinessInfo();renderAnnouncements();renderMenu();renderHomeMenu();renderGallery();renderReviews();renderMarkets();renderCateringProducts();renderLinks();}
 function loadEditableData(){
   if(!window.fetch){renderEditableContent();return;}
   fetch('/data/site.json',{cache:'no-store'})

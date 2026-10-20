@@ -24,6 +24,10 @@ After the site is connected to a Git repository and deployed on Netlify:
 
 When you save in `/admin/`, Decap CMS commits the change to the `main` branch. Netlify then rebuilds and publishes the updated live site.
 
+### Add announcements
+
+Open **Site Content > Menu & Website Content > Announcements** in `/admin/`. Add a title, optional message, and optional link text and URL. Announcements appear below the homepage headline. Drag to reorder, turn off **Show announcement** to hide one, or delete it to remove it. Select **Publish** to save. The existing pre-order message is included here for editing.
+
 ### Everyday menu workflow
 
 1. Visit `https://cardamomcrush.ca/admin/` and sign in.

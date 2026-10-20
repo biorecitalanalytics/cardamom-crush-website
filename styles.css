@@ -55,7 +55,16 @@
 /* Editorial home page */
 .editorial-home{overflow:hidden;background:var(--cream)}
 .editorial-hero{display:grid;grid-template-columns:1fr;border-bottom:1px solid rgba(32,63,49,.18)}
-.editorial-hero-main{position:relative;isolation:isolate;overflow:hidden;display:flex;justify-content:center;align-items:center;min-height:clamp(190px,22vw,300px);padding:clamp(2.25rem,4vw,4rem);background:#e8b94f;text-align:center}
+.editorial-hero-main{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;gap:1.5rem;justify-content:center;align-items:center;min-height:clamp(190px,22vw,300px);padding:clamp(2.25rem,4vw,4rem);background:#e8b94f;text-align:center}
+.editorial-preorder{margin:0;max-width:32rem;font-size:clamp(.95rem,1.3vw,1.15rem);line-height:1.7;color:var(--green-dark)}
+.editorial-preorder strong{font-size:1.25em;font-weight:700}
+.editorial-announcements{display:grid;gap:1.25rem;width:min(100%,38rem);padding:1.25rem clamp(1rem,3vw,2rem);box-sizing:border-box;border:1px solid rgba(32,63,49,.2);border-radius:12px;background:rgba(255,250,236,.85);text-align:center}
+.editorial-announcements .editorial-preorder{max-width:none;overflow-wrap:anywhere}
+.editorial-announcements .editorial-preorder + .editorial-preorder{border-top:1px solid rgba(32,63,49,.2);padding-top:1.25rem}
+.editorial-announcements[hidden]{display:none}
+.announcement-message{display:block;white-space:pre-line;overflow-wrap:anywhere}
+.editorial-preorder a{display:inline-block;margin-top:.25rem;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+.editorial-preorder a:hover{text-decoration-thickness:2px}
 .editorial-hero-main::before{content:"";position:absolute;z-index:-1;inset:50% auto auto 50%;width:clamp(180px,28vw,390px);aspect-ratio:1;transform:translate(-50%,-50%);background:url("assets/cardamom-crush-logo.png") center/contain no-repeat;opacity:.1;filter:saturate(.7);pointer-events:none}
 .editorial-hero-main .eyebrow{color:var(--green-dark)}
 .editorial-hero h1{width:100%;max-width:100%;margin:0;font-family:Georgia,serif;font-size:clamp(1rem,5.2vw,6.5rem);line-height:.92;letter-spacing:-.055em;color:var(--green-dark);text-align:center;white-space:nowrap}

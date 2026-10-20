@@ -11,6 +11,13 @@
   3. Leave image blank or remove the line if an item has no picture yet.
 */
 window.CC_DATA = {
+  announcements: [{
+    title: "Now accepting pre-orders.",
+    message: "",
+    linkLabel: "Contact us to place your order",
+    url: "contact.html#contact-form",
+    visible: true
+  }],
   business: {
     name: "Cardamom Crush",
     tagline: "Sweet Spice & Satisfaction",
